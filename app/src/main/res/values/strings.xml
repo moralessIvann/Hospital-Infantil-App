@@ -1,6 +1,20 @@
 <resources>
     <string name="app_name">Hospital-Infantil-App</string>
-    <string name="action_settings">Settings</string>
-    <string name="menu_home">Home</string>
-    <string name="boton">Home</string>
+    <!-- Botones -->
+    <string name="espanol">Español</string>
+    <string name="ingles">English</string>
+    <string name="info">©2020 Hospital Infantil.</string>
+    <!-- Información de contacto -->
+    <string name="numero"><![CDATA[Phone/Teléfono: 973–7756 & 973–7757 (ext. 404 & 417)]]></string>
+    <string name="direccion">Av. Alejandro von Humboldt #11431 &amp; Garita de Otay</string>
+    <string name="local">Tijuana, Baja California</string>
+    <string name="postal">ZIP Code/Código Postal: 22430</string>
+    <string name="copyright">© 2020 Hospital Infantil. Laboratorio Digital.</string>
+    <!-- Redes Sociales -->
+    <string name="usuario">hicoficial</string>
+    <string name="usuario2">HICoficial</string>
+    <string name="red1">Facebook:</string>
+    <string name="red2">Twitter:</string>
+    <string name="red3">Instagram:</string>
+    <string name="red4">Youtube:</string>
 </resources>
