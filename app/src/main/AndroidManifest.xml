@@ -20,6 +20,8 @@
         <activity android:name=".VersionEspanol" />
         <activity android:name=".VersionIngles" />
         <activity android:name=".Information" />
+        <activity android:name=".VersionEspanol"></activity>
+        <activity android:name=".VersionIngles"></activity>
     </application>
 
 </manifest>
