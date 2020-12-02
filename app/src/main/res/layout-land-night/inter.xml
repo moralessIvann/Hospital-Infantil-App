@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="@color/black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/cap"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="288dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/cap"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cap7"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="204dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/cap7"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cap6"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/cap6"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cap4"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="288dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/cap4"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cap5"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/cap5"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cap1"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/cap1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cap2"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/cap2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cap3"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="204dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/cap3"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

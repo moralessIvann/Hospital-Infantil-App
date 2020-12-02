@@ -4,6 +4,24 @@
     <string name="espanol">Español</string>
     <string name="ingles">English</string>
     <string name="info">©2020 Hospital Infantil.</string>
+    <!-- Interfaz español -->
+    <string name="cap1">Capítulo 1</string>
+    <string name="cap2">Capítulo 2</string>
+    <string name="cap3">Capítulo 3</string>
+    <string name="cap4">Capítulo 4</string>
+    <string name="cap5">Capítulo 5</string>
+    <string name="cap6">Capítulo 6</string>
+    <string name="cap7">Capítulo 7</string>
+    <string name="cap">Volver</string>
+    <!-- Interfaz inglés -->
+    <string name="chap1">Chapter 1</string>
+    <string name="chap2">Chapter 2</string>
+    <string name="chap3">Chapter 3</string>
+    <string name="chap4">Chapter 4</string>
+    <string name="chap5">Chapter 5</string>
+    <string name="chap6">Chapter 6</string>
+    <string name="chap7">Chapter 7</string>
+    <string name="chap">Back</string>
     <!-- Información de contacto -->
     <string name="numero"><![CDATA[Phone/Teléfono: 973–7756 & 973–7757 (ext. 404 & 417)]]></string>
     <string name="direccion">Av. Alejandro von Humboldt #11431 &amp; Garita de Otay</string>
