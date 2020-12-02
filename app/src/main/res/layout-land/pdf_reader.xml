@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".VersionEspanol">
 
 
     <com.github.barteksc.pdfviewer.PDFView
@@ -12,26 +12,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.appbar.CollapsingToolbarLayout
-                android:id="@+id/collapsing_toolbar_layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:contentScrim="?attr/colorPrimary"
-                app:expandedTitleGravity="top"
-                app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
-
-                <androidx.appcompat.widget.Toolbar
-                    android:id="@+id/toolbar"
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    app:layout_collapseMode="pin" />
-
-            </com.google.android.material.appbar.CollapsingToolbarLayout>
-        </com.google.android.material.appbar.AppBarLayout>
+        <ImageButton
+            android:id="@+id/indiceButton"
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="95dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/bottomAppBar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="660dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/purple_3"
+            android:contentDescription="indice"
+            android:onClick="onIndice"
+            android:src="@android:drawable/ic_menu_search"
+            android:tint="#FFFFFF"
+            tools:ignore="HardcodedText" />
 
     </com.github.barteksc.pdfviewer.PDFView>
 
