@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hospital-Infantil-App</string>
+    <string name="app_name">Hospital Infantil App</string>
     <!-- Botones -->
     <string name="espanol">Español</string>
     <string name="ingles">English</string>
@@ -35,6 +35,20 @@
     <string name="red2">Twitter:</string>
     <string name="red3">Instagram:</string>
     <string name="red4">Youtube:</string>
-    <string name="espanol">Español</string>
-    <string name="ingles">English</string>
+    <!-- titulos -->
+    <string name="tit1">Su nuevo bebé</string>
+    <string name="tit2">Alimentación al seno materno</string>
+    <string name="tit3">Buena nutrición para la mamá lactante</string>
+    <string name="tit4">Alimentación con fórmula</string>
+    <string name="tit5">Alimentación y ablactación</string>
+    <string name="tit6">Comida hecha en casa</string>
+    <string name="tit7">Cuidados especiales</string>
+    <!-- title -->
+    <string name="titl1">Your New Baby</string>
+    <string name="titl2">Breastfeeding your baby</string>
+    <string name="titl3">Good nutrition for the breastfeeding mother</string>
+    <string name="titl4">Formula Feeding</string>
+    <string name="titl5">Introduction of complementary foods</string>
+    <string name="titl6">Home prepared baby food</string>
+    <string name="titl7">Special concerns</string>
 </resources>

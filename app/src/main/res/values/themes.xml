@@ -3,14 +3,14 @@
     <style name="Theme.HospitalInfantilApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_2</item> <!-- Color barra principal del libro -->
-        <item name="colorPrimaryVariant">@color/purple</item> <!-- Color barra de tareas -->
+        <item name="colorPrimaryVariant">@color/purple</item>
         <item name="colorOnPrimary">@color/purple_2</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal</item>
         <item name="colorSecondaryVariant">@color/teal</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_2</item>
         <!-- Customize your theme here. -->
     </style>
 

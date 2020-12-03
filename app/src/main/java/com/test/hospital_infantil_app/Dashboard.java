@@ -47,49 +47,49 @@ public class Dashboard extends Activity implements View.OnClickListener{
 
             case R.id.cap1:             //Boton cap1 presionado
                 editor.putInt("current2", 6 - 1);           //-1 se utiliza por control, las paginas se despliegan desde 0, no desde 1
-                editor.commit();                            //Guarda la pagina en memoria
+                editor.apply();                            //Guarda la pagina en memoria
                 startActivity(intent);                      //re-abre el lector PDF del libro en español
                 finish();                                   //Cierra esta actividad
                 break;
 
             case R.id.cap2:
                 editor.putInt("current2", 13 - 1);
-                editor.commit();                                    //Guarda la pagina en memoria
+                editor.apply();                                    //Guarda la pagina en memoria
                 startActivity(intent);
                 finish();
                 break;
 
             case R.id.cap3:
                 editor.putInt("current2", 22 - 1);
-                editor.commit();                                    //Guarda la pagina en memoria
+                editor.apply();                                    //Guarda la pagina en memoria
                 startActivity(intent);
                 finish();
                 break;
 
             case R.id.cap4:
                 editor.putInt("current2", 27 - 1);
-                editor.commit();                                    //Guarda la pagina en memoria
+                editor.apply();                                    //Guarda la pagina en memoria
                 startActivity(intent);
                 finish();
                 break;
 
             case R.id.cap5:
                 editor.putInt("current2", 34 - 1);
-                editor.commit();                                    //Guarda la pagina en memoria
+                editor.apply();                                    //Guarda la pagina en memoria
                 startActivity(intent);
                 finish();
                 break;
 
             case R.id.cap6:
                 editor.putInt("current2", 55 - 1);
-                editor.commit();                                    //Guarda la pagina en memoria
+                editor.apply();                                    //Guarda la pagina en memoria
                 startActivity(intent);
                 finish();
                 break;
 
             case R.id.cap7:
                 editor.putInt("current2", 61 - 1);
-                editor.commit();                                    //Guarda la pagina en memoria
+                editor.apply();                                    //Guarda la pagina en memoria
                 startActivity(intent);
                 finish();
                 break;

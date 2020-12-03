@@ -68,7 +68,7 @@ public class VersionEspanol extends Activity {
         PDFView pdfView = findViewById(R.id.pdfView);       //Se invocan los datos de pdfView dentro de onCreate()
         currentPage = pdfView.getCurrentPage();             //La variable estatica currentPage es cambiada al numero de pagina actual
         editor.putInt("current1", currentPage);
-        editor.commit();                                    //Guarda la pagina en memoria
+        editor.apply();                                    //Guarda la pagina en memoria
     }
 
     public void onIndice(View view) {

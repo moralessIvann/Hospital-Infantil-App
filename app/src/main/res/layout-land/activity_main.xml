@@ -5,67 +5,70 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:backgroundTint="@color/purple_2"
+    android:backgroundTint="@color/white"
     tools:context=".MainActivity">
 
     <!-- Imagen de menú principal -->
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="417dp"
-        android:layout_height="211dp"
-        android:layout_marginTop="88dp"
-        android:src="@drawable/logohic"
+        android:layout_width="350dp"
+        android:layout_height="172dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/logohic_01"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />
 
     <!-- Botón para selección de Español -->
+
+    <!-- Botón para selección de Inglés -->
+
+    <!-- Botón para selección de Información -->
+
     <Button
         android:id="@+id/espanol"
         android:layout_width="151dp"
         android:layout_height="70dp"
-        android:layout_marginTop="60dp"
         android:backgroundTint="@color/purple_3"
         android:onClick="onSpanish"
         android:text="@string/espanol"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ingles"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:rippleColor="@color/white" />
+        app:layout_constraintVertical_bias="0.852" />
 
-    <!-- Botón para selección de Inglés -->
     <Button
         android:id="@+id/ingles"
         android:layout_width="151dp"
         android:layout_height="70dp"
-        android:layout_marginTop="160dp"
+        android:layout_centerInParent="true"
         android:backgroundTint="@color/purple_3"
         android:onClick="onEnglish"
         android:text="@string/ingles"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    <!-- Botón para selección de Información -->
     <Button
         android:id="@+id/info"
         android:layout_width="151dp"
         android:layout_height="70dp"
-        android:layout_marginTop="260dp"
         android:backgroundTint="@color/purple_3"
         android:onClick="onInfo"
         android:text="@string/info"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/ingles"
+        app:layout_constraintVertical_bias="0.148" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
