@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:backgroundTint="@color/purple_2"
+    android:backgroundTint="@color/white"
     tools:context=".MainActivity">
 
     <!-- Imagen de menú principal -->
@@ -13,8 +13,8 @@
         android:id="@+id/imageView"
         android:layout_width="350dp"
         android:layout_height="172dp"
-        android:layout_marginTop="80dp"
-        android:src="@drawable/logohic"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logohic_01"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,29 +22,34 @@
         tools:ignore="ContentDescription" />
 
     <!-- Botón para selección de Español -->
+
+    <!-- Botón para selección de Inglés -->
+
     <Button
         android:id="@+id/espanol"
         android:layout_width="151dp"
         android:layout_height="70dp"
-        android:layout_marginTop="328dp"
         android:backgroundTint="@color/purple_3"
         android:onClick="onSpanish"
         android:text="@string/espanol"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ingles"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
 
-    <!-- Botón para selección de Inglés -->
     <Button
         android:id="@+id/ingles"
         android:layout_width="151dp"
         android:layout_height="70dp"
-        android:layout_marginTop="444dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
         android:backgroundTint="@color/purple_3"
         android:onClick="onEnglish"
         android:text="@string/ingles"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,35 +59,14 @@
         android:id="@+id/info"
         android:layout_width="151dp"
         android:layout_height="70dp"
-        android:layout_marginTop="560dp"
         android:backgroundTint="@color/purple_3"
         android:onClick="onInfo"
         android:text="@string/info"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-  
-    <Button
-        android:id="@+id/espanol"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="244dp"
-        android:text="@string/espanol"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="onSpanish"/>
-
-    <Button
-        android:id="@+id/ingles"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="360dp"
-        android:text="@string/ingles"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="onEnglish"/>
+        app:layout_constraintTop_toBottomOf="@+id/ingles"
+        app:layout_constraintVertical_bias="0.148" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

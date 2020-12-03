@@ -13,7 +13,7 @@
         android:id="@+id/imageView"
         android:layout_width="350dp"
         android:layout_height="172dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/logohic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -22,29 +22,34 @@
         tools:ignore="ContentDescription" />
 
     <!-- Botón para selección de Español -->
+
+    <!-- Botón para selección de Inglés -->
+
     <Button
         android:id="@+id/espanol"
         android:layout_width="151dp"
         android:layout_height="70dp"
-        android:layout_marginTop="328dp"
         android:backgroundTint="@color/gray"
         android:onClick="onSpanish"
         android:text="@string/espanol"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ingles"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
 
-    <!-- Botón para selección de Inglés -->
     <Button
         android:id="@+id/ingles"
         android:layout_width="151dp"
         android:layout_height="70dp"
-        android:layout_marginTop="444dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
         android:backgroundTint="@color/gray"
         android:onClick="onEnglish"
         android:text="@string/ingles"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,14 +59,14 @@
         android:id="@+id/info"
         android:layout_width="151dp"
         android:layout_height="70dp"
-        android:layout_marginTop="560dp"
         android:backgroundTint="@color/gray"
         android:onClick="onInfo"
         android:text="@string/info"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toBottomOf="@+id/ingles"
+        app:layout_constraintVertical_bias="0.148" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -28,7 +28,7 @@
             android:backgroundTint="@color/purple_3"
             android:contentDescription="indice"
             android:onClick="onInter"
-            android:src="@android:drawable/ic_menu_search"
+            android:src="@android:drawable/ic_menu_sort_by_size"
             android:tint="#FFFFFF"
             tools:ignore="HardcodedText" />
 
