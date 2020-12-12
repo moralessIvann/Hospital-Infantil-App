@@ -167,6 +167,17 @@
 
         <!-- Marca de Copyright -->
 
+        <Button
+            android:id="@+id/mensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:text="Contactanos"
+            android:textColor="@color/purple_2"
+            android:layout_marginLeft="130dp"
+            android:onClick="onEnviar"/>
+
         <TextView
             android:id="@+id/CopyContacto"
             android:layout_width="match_parent"

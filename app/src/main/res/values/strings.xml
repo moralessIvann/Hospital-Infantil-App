@@ -51,4 +51,8 @@
     <string name="titl5">Introduction of complementary foods</string>
     <string name="titl6">Home prepared baby food</string>
     <string name="titl7">Special concerns</string>
+
+    <string name="chooser">Send Message viw...</string>
+    <string name="hint">Escribir comentario</string>
+    <string name="enviar">Enviar</string>
 </resources>
