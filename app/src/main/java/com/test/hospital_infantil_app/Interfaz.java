@@ -14,6 +14,7 @@ public class Interfaz extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.inter);
 
+        Button b0= findViewById(R.id.cap0);
         Button b1= findViewById(R.id.cap1);
         Button b2= findViewById(R.id.cap2);
         Button b3= findViewById(R.id.cap3);
@@ -23,6 +24,7 @@ public class Interfaz extends Activity implements View.OnClickListener{
         Button b7= findViewById(R.id.cap7);
         Button b8= findViewById(R.id.cap);
 
+        b0.setOnClickListener(this);
         b1.setOnClickListener(this);
         b2.setOnClickListener(this);
         b3.setOnClickListener(this);
@@ -43,6 +45,13 @@ public class Interfaz extends Activity implements View.OnClickListener{
             case R.id.cap:              //Regresa
                 startActivity(intent);
                 finish();
+                break;
+
+            case R.id.cap0:             //Boton cap1 presionado
+                editor.putInt("current1", 1 - 1);           //-1 se utiliza por control, las paginas se despliegan desde 0, no desde 1
+                editor.apply();                            //Guarda la pagina en memoria
+                startActivity(intent);                      //re-abre el lector PDF del libro en español
+                finish();                                   //Cierra esta actividad
                 break;
 
             case R.id.cap1:             //Boton cap1 presionado

@@ -22,7 +22,6 @@
         <activity android:name=".Information" />
         <activity android:name=".Interfaz" />
         <activity android:name=".Dashboard" />
-        <activity android:name=".EnviarMensaje"/>
 
     </application>
 

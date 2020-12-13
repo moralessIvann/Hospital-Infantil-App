@@ -14,13 +14,27 @@
         android:orientation="vertical"
         android:id="@+id/linearLayout2">
 
+        <Button
+            android:id="@+id/cap0"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:backgroundTint="@color/purple_3"
+            android:text="@string/cap0"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             android:id="@+id/titulo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="@string/tit1"
             android:textAlignment="center"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
 
@@ -31,6 +45,7 @@
             android:backgroundTint="@color/purple_3"
             android:text="@string/cap1"
             android:textColor="@color/white"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -39,9 +54,11 @@
             android:id="@+id/titulo2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="@string/tit2"
             android:textAlignment="center"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
 
@@ -52,6 +69,7 @@
             android:backgroundTint="@color/purple_3"
             android:text="@string/cap2"
             android:textColor="@color/white"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -60,9 +78,11 @@
             android:id="@+id/titulo3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="@string/tit3"
             android:textAlignment="center"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
 
@@ -73,6 +93,7 @@
             android:backgroundTint="@color/purple_3"
             android:text="@string/cap3"
             android:textColor="@color/white"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -81,9 +102,11 @@
             android:id="@+id/titulo4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="@string/tit4"
             android:textAlignment="center"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
 
@@ -94,6 +117,7 @@
             android:backgroundTint="@color/purple_3"
             android:text="@string/cap4"
             android:textColor="@color/white"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -102,9 +126,11 @@
             android:id="@+id/titulo5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="@string/tit5"
             android:textAlignment="center"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
 
@@ -115,6 +141,7 @@
             android:backgroundTint="@color/purple_3"
             android:text="@string/cap5"
             android:textColor="@color/white"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -123,9 +150,11 @@
             android:id="@+id/titulo6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="@string/tit6"
             android:textAlignment="center"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
 
@@ -136,6 +165,7 @@
             android:backgroundTint="@color/purple_3"
             android:text="@string/cap6"
             android:textColor="@color/white"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -144,9 +174,11 @@
             android:id="@+id/titulo7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="@string/tit7"
             android:textAlignment="center"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
 
@@ -157,6 +189,7 @@
             android:backgroundTint="@color/purple_3"
             android:text="@string/cap7"
             android:textColor="@color/white"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -169,6 +202,7 @@
             android:backgroundTint="@color/purple_3"
             android:text="@string/cap"
             android:textColor="@color/white"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
