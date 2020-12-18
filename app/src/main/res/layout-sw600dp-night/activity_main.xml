@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="@color/black"
+    tools:context=".MainActivity">
+
+    <!-- Imagen de menú principal -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="496dp"
+        android:layout_height="244dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logohic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <!-- Botón para selección de Español -->
+
+    <!-- Botón para selección de Inglés -->
+
+    <Button
+        android:id="@+id/espanol"
+        android:layout_width="327dp"
+        android:layout_height="110dp"
+        android:backgroundTint="@color/gray"
+        android:onClick="onSpanish"
+        android:text="@string/espanol"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/ingles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <Button
+        android:id="@+id/ingles"
+        android:layout_width="327dp"
+        android:layout_height="110dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/gray"
+        android:onClick="onEnglish"
+        android:text="@string/ingles"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Botón para selección de Información -->
+    <Button
+        android:id="@+id/info"
+        android:layout_width="327dp"
+        android:layout_height="110dp"
+        android:backgroundTint="@color/gray"
+        android:onClick="onInfo"
+        android:text="@string/info"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingles"
+        app:layout_constraintVertical_bias="0.148" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
